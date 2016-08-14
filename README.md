@@ -6,4 +6,4 @@ EmberJS vagrant machine environment
 Start the machine with `vagrant up`.
 Execute your ember cli commands: `ember new ember-quickstart`.
 
-###### `/vagrant` folder is synced with the local folder.
+###### P.S.: `/vagrant` folder is synced with the local folder.
