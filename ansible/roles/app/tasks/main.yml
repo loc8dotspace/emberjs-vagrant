@@ -1,0 +1,10 @@
+---
+# application tasks to be customized and to run after the main provision
+- name: Install phantomjs
+  npm: name=phantomjs global=yes
+
+- name: Install bower
+  npm: name=bower global=yes
+
+- name: Install ember-cli
+  npm: name=ember-cli global=yes

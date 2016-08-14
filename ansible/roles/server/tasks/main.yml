@@ -1,0 +1,12 @@
+---
+- name: Update all packages
+  yum: name=* disable_gpg_check=yes state=latest
+  sudo: yes
+
+- name: Install common packages
+  yum: name={{ item }} state=present
+  sudo: yes
+  with_items:
+    - vim
+    - wget
+    - npm
